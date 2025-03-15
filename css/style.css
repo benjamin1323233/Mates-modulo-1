@@ -1,6 +1,11 @@
+/* es el color verde del fondo de acerca de nosotros */
 .bgAcercaNos{
-    background-color: #308446;
+    background-color: #17721f;
 }
 .borderadius{
     border-radius: 5px;
+}
+/* es el tamaño de las img de acerca de nosotros */
+.tamañoSobreNosotros{
+   object-fit: cover;
 }
