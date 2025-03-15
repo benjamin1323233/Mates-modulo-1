@@ -21,44 +21,95 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <link rel="stylesheet" href="../css/style.css" />
     <title>Acerca de nosotros</title>
   </head>
   <body>
     <header></header>
     <!-- creacion de el acerca nos puse bg en el main y unas clases para bordear contenedores y cambiar color bg -->
-    <main class="bgAcercaNos p-4">
-      <section class="container bg-light borderadius p-5 px-5 my-4">
+    <main class="bgAcercaNos pb-3">
+      <div id="carruselAcercaNos" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="../img/acercaNosotros/pexels-lucasleonelsuarez-30669594.jpg"
+              class="d-block carruselSobreNosotros w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="../img/acercaNosotros/pexels-fauxels-3183197.jpg"
+              class="d-block carruselSobreNosotros w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="../img/acercaNosotros/pexels-fauxels-3183150.jpg"
+              class="d-block carruselSobreNosotros w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carruselAcercaNos"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carruselAcercaNos"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <section
+        class="container bg-SN borderadius p-5 px-5 my-4 shadow-lg border"
+      >
         <div class="row my-3">
-          <h1 class="my-2 col-12">Acerca de nosotros</h1>
-          <p class="col-12 col-md-6 col-lg-8 fs-3">
-            "Somos Mateando!" Un e-commerce de venta de mates,termos y lo que
-            necesites para preparar unos buenos mates y seguir "Mateando".
-            <br />nuestro objetivo es que en cada casa cuente con lo necesario
-            para tomar mates con productos que representen a las personas que
-            preparan, toman y comparten de esta tradicion argentina.
-            <br />encontrar el mate ideal de cada persona por una calidad y
-            precios espectaculares que se moldeen a las necesidades y
-            presupuesto de todo el que busque cualquiera de nuestros productos.
-          </p>
+          <div class="col-12 col-md-12 col-lg-8">
+            <h1 class="my-2">Acerca de nosotros</h1>
+            <p class="fs-4">
+              "Somos Mateando!" Un e-commerce de venta de mates,termos y lo que
+              necesites para preparar unos buenos mates y seguir "Mateando".
+              <br />nuestro objetivo es que en cada casa cuente con lo necesario
+              para tomar mates con productos que representen a las personas que
+              preparan, toman y comparten de esta tradicion argentina.
+              <br />encontrar el mate ideal de cada persona por una calidad y
+              precios espectaculares que se moldeen a las necesidades y
+              presupuesto de todo el que busque cualquiera de nuestros
+              productos.
+            </p>
+          </div>
           <img
             src="../img/acercaNosotros/pexels-lars-probst-257286-787673.jpg"
-            class="img-fluid col-12 col-md-6 col-lg-4 tamañoSobreNosotros"
+            class="img-fluid col-12 col-md-12 col-lg-4 tamañoSobreNosotros"
             alt="imagen de mate de madera cebado"
           />
         </div>
       </section>
-      <section class="container bg-light borderadius p-3">
+      <section class="container bg-SN borderadius p-3 shadow-lg border">
         <div class="row">
           <img
-            src="../img/acercaNosotros/pexels-lucasleonelsuarez-30669594.jpg"
+            src="../img/acercaNosotros/pexels-marianela-cavalli-238542638-13011098.jpg"
             class="img-fluid col-12 col-md-6 col-lg-4 tamañoSobreNosotros"
             alt="imagen de chico con un mate mirando hacia el exterior por una ventana"
           />
           <div class="col-12 col-md-6 col-lg-8">
-            <h2>Nuestra historia</h2>
-            <p class="fs-3">
+            <h2 class="my-2">Nuestra historia</h2>
+            <p class="fs-4 my-2">
               En 2015, en la ciudad de Tucuman,Argentina, un grupo de amigos se
               reunieron en una pequeña plaza a tomar mates, luego de un rato
               tomando, el grupo, dandose cuenta que el que llevaba el mate era
@@ -72,29 +123,61 @@
           </div>
         </div>
       </section>
-      <section class="container bg-light borderadius p-3 my-3">
+      <section class="container bg-SN borderadius p-3 my-3 shadow-lg border">
         <div class="row">
-            <article class="col-12 col-md-4 col-lg-4"><div class="card">
-                <div class="card-body text-center">
-                    <i class="bi bi-calendar fs-1"></i>
-                  <h5 class="card-title">Proveedor de productos a toda Argentina durante 8 años</h5>
-                  <h6 class="card-subtitle mb-2 text-body-secondary">Desde 2015 a hoy</h6>
-                </div>
-              </div></article>
-              <article class="col-12 col-md-4 col-lg-4"><div class="card">
-                <div class="card-body text-center">
-                    <i class="bi bi-cart-plus fs-1"></i></i>
-                  <h5 class="card-title">Con una gran cantidad de mates para elegir</h5>
-                  <h6 class="card-subtitle mb-2 text-body-secondary">+10 tipos</h6>
-                </div>
-              </div></article>
-              <article class="col-12 col-md-4 col-lg-4"><div class="card">
-                <div class="card-body text-center ">
-                    <i class="bi bi-envelope fs-1"></i>
-                  <h5 class="card-title">Con envios a toda Argentina!</h5>
-                  <h6 class="card-subtitle mb-2 text-body-secondary">y llevando +2 productos el envio es gratis</h6>
-                </div>
-              </div></article>
+          <article class="col-12 col-md-4 col-lg-4">
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <i class="bi bi-calendar fs-1"></i>
+                <h5 class="card-title">
+                  Proveedor de productos a toda Argentina durante 8 años
+                </h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">
+                  Desde 2015 a hoy
+                </h6>
+              </div>
+            </div>
+          </article>
+          <article class="col-12 col-md-4 col-lg-4">
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <i class="bi bi-cart-plus fs-1"></i>
+                <h5 class="card-title">
+                  Con una gran cantidad de mates para elegir
+                </h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">
+                  +10 tipos
+                </h6>
+              </div>
+            </div>
+          </article>
+          <article class="col-12 col-md-4 col-lg-4">
+            <div class="card h-100">
+              <div class="card-body text-center">
+                <i class="bi bi-envelope fs-1"></i>
+                <h5 class="card-title">Con envios a toda Argentina!</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary">
+                  y llevando +2 productos el envio es gratis
+                </h6>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="container bg-SN borderadius p-3 my-3 shadow-lg border">
+        <h2 class="text-center">Nuestro Equipo!</h2>
+        <div class="row">
+          <article>
+            <div class="card" style="width: 18rem">
+              <img src="..." class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </article>
         </div>
       </section>
     </main>
