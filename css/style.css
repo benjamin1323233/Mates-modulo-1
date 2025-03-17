@@ -18,3 +18,8 @@
 .bg-SN{
     background-color: rgb(255, 252, 235);
 }
+/* esta media query ajusta el tamaño del carrusel de acerca de nosotros para dispositivos pequeños */
+@media (min-width:767px) and (max-width:991px){
+    .carruselSobreNosotros{
+        height: 300px;
+    }}
