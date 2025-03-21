@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iansui&display=swap');
+.navbar{
+    background-color: rgb(34, 134, 47);
+    font-family: "Iansui";
+}
+.navbar-logo img {
+    height: 50px;
+}
+.navbar-brand{
+    font-family:"Rock Salt";
+}
+.section1{
+    font-family: "Iansui";
+}
