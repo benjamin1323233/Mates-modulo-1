@@ -32,3 +32,8 @@ footer{
 .logo-footer {
     height: 130px;
 }
+
+.giferror404 {
+    max-width: 100%;
+    overflow: hidden;
+}
