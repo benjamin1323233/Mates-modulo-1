@@ -81,3 +81,30 @@ main {
         filter: grayscale(0%);
     }
 }
+
+.mediosDePago {
+    color: rgb(50, 89, 233);
+}
+
+.mediosDePago:hover {
+    cursor: pointer;
+    color: rgb(15, 65, 247);
+}
+
+.boton-comprar {
+    transition: font-size 400ms ease-out ;
+}
+
+.boton-comprar:hover {
+    font-size: larger;
+}
+
+.cardEffect {
+    transition: all 0.3s ease;
+    box-shadow: 0 0 5px rgba(92, 8, 177, 0.4)px rgb(92, 8, 177), 0 0 15px rgb(92, 8, 177);
+}
+
+.cardEffect:hover{
+    box-shadow: 0 0 5px rgb(92, 8, 177), 0 0 10px rgb(92, 8, 177), 0 0 15px rgb(92, 8, 177);
+    z-index: 1;
+}
