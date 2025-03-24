@@ -61,8 +61,123 @@
             </ul>
             <form class="d-flex"  role="search">
               <input class="form-control me-2" data-bs-theme="light" type="search" placeholder="Buscar..." aria-label="Search">
-              <button class="btn btn-outline-light text-ligh" type="submit">Buscar</button>
+              <button class="btn btn-outline-light text-light" type="submit">Buscar</button>
             </form>
+            <!-- inicio modal -->
+            <button
+            type="button"
+            class="btn btn-outline-light text-light"
+              data-bs-toggle="modal"
+              data-bs-target="#modalCrearCuenta"
+            >
+              Crea tu cuenta ahora
+            </button>  
+            <section
+            class="modal fade"
+            id="modalCrearCuenta"
+            tabindex="-1"
+            aria-labelledby="modalRegisterLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h2 class="modal-title fs-5" id="modalRegisterLabel">
+                    iniciar sesion
+                  </h2>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <p>Completa los siguientes datos para entrar a tu cuenta:</p>
+                  <section class="container">
+                    <div class="row">
+                      <article class="col-12 col-md-12 col-lg-8 my-2">
+                        <form id="formModal">
+                          <div class="mb-3">
+                            <label for="NombreModal" class="form-label"
+                              >Nombre y apellido*</label
+                            >
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="NombreModal"
+                              required
+                              minlength="5"
+                              maxlength="50"
+                              placeholder="Charles Leclerc"
+                            />
+                          </div>
+    
+                          <div class="mb-3">
+                            <label for="contraseñaModal" class="form-label"
+                              >Contraseña</label
+                            >
+                            <input
+                              type="password"
+                              class="form-control"
+                              id="contraseñaModal"
+                              required
+                              minlength="3"
+                              maxlength="15"
+                            />
+                          </div>
+                          <div class="mb-3">
+                            <label for="repetircontraseñaModal" class="form-label"
+                              >Repetir contraseña</label
+                            >
+                            <input
+                              type="password"
+                              class="form-control"
+                              id="repetircontraseñaModal"
+                              required
+                              minlength="3"
+                              maxlength="15"
+                            />
+                          </div>
+    
+                          <button
+                            type="sumit"
+                            form="formModal"
+                            class="btn bg-success"
+                          >
+                            Iniciar sesion
+                          </button>
+                        </form>
+                      </article>
+                      <article class="col-12 col-md-12 col-lg-4 d-flex align-items">
+                        <img
+                          src="./img/primer-plano-vertical-taza-infusion-yerba-mate-termo_181624-56308.avif"
+                          class="img-fluid cover"
+                          alt="imagen de mate y termo"
+                        />
+                      </article>
+    
+                      <article class="col-12 mt-3">
+                        <p>
+                          Inicia sesion con:<a href="#"
+                            ><i
+                              class="bi bi-google mx-2 fs-5 link-secondary"
+                            ></i> </a
+                          ><a href="#"
+                            ><i class="bi bi-facebook fs-5 link-secondary"></i
+                          ></a>
+                        </p>
+                      </article>
+                      <article class="col-12">
+                        <a href="#">¿No recuerdas tu contraseña?</a>
+                      </article>
+                    </div>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </section>
+             <!-- fin modal -->
           </div>
         </div>
       </nav>
