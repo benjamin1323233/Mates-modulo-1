@@ -57,6 +57,9 @@ main {
         height: 300px;
 }}
 
+
+
+
 /* Estilos pagina detallesProducto */
 .contenedorKitMatero {
     overflow: hidden;
@@ -83,12 +86,7 @@ main {
 }
 
 .mediosDePago {
-    color: rgb(50, 89, 233);
-}
-
-.mediosDePago:hover {
-    cursor: pointer;
-    color: rgb(15, 65, 247);
+    text-decoration: none;
 }
 
 .boton-comprar {
