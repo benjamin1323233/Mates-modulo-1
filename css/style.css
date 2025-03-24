@@ -13,3 +13,10 @@
 .section1{
     font-family: "Iansui";
 }
+h2{
+     font-family: "Rock Salt";
+}
+#CarrouselPromo{
+    width: 500px;
+    height: 500px;
+}
