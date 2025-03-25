@@ -120,5 +120,5 @@ main {
     max-height: 400px; /* Altura máxima para scroll */
     overflow-y: auto; /* Scroll vertical */
     position: sticky; /* Fijo mientras se hace scroll en pantallas grandes */
-    top: 20px; /* Separación desde arriba */
+    top: 100px; /* Separación desde arriba */
 }
