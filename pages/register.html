@@ -31,13 +31,12 @@
                   <li class="nav-item me-2">
                     <a class="nav-link" href="/pages/contacto.html">Contacto</a>
                   </li>
-                    <ul class="dropdown-menu">
+                  <ul class="dropdown-menu">
                       <li><a class="dropdown-item" href="#">Action</a></li>
                       <li><a class="dropdown-item" href="#">Another action</a></li>
                       <li><hr class="dropdown-divider"></li>
                       <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
+                  </ul>
                   <li class="nav-item me-2">
                     <a class="nav-link" href="/pages/producto.html">Producto</a>
                   </li>
@@ -53,8 +52,66 @@
             </div>
           </nav>
     </header>
-    <main>
-      
+    <main class="pt-5">
+      <section>
+        <form action="error404.html" method="POST" class="border border-danger">
+          <div>
+            ¡Registrate para obtener muchos beneficios!
+          </div>
+          <div>
+            <label for="apellido">Apellidos</label>
+            <input type="text" minlength="3" maxlength="30" placeholder="Apellidos" id="apellido" required>
+          </div>
+          <div>
+            <label for="nombre">Nombres</label>
+            <input type="text" minlength="3" maxlength="30" placeholder="Nombres" id="nombre" required>
+          </div>
+          <div>
+            <label for="email">Correo Electrónico</label>
+            <input type="email" minlength="8" maxlength="350" placeholder="Correo Electrónico" id="email" required>
+          </div>
+          <div>
+            <label for="fechanacimiento">Fecha de Nacimiento</label>
+            <input type="date" id="fechanacimiento" placeholder="Fecha de Nacimiento" required>
+          </div>
+          <div>
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" placeholder="03815555555" required>
+          </div>
+          <div>
+            <label for="prov">Provincia</label>
+            <select id="prov">
+              <option value="">Seleccione su provincia</option>
+              <option value="BsAs">Buenos Aires</option>
+              <option value="Catamarca">Catamarca</option>
+              <option value="Chaco">Chaco</option>
+              <option value="Chubut">Chubut</option>
+              <option value="Misiones">Misiones</option>
+              <option value="Córdoba">Córdoba</option>
+              <option value="Corrientes">Corrientes</option>
+              <option value="Entre Ríos">Entre Ríos</option>
+              <option value="Formosa">Formosa</option>
+              <option value="Jujuy">Jujuy</option>
+              <option value="La Pampa">La Pampa</option>
+              <option value="La Rioja">La Rioja</option>
+              <option value="Mendoza">Mendoza</option>
+              <option value="Misiones">Misiones</option>
+              <option value="Neuquen">Neuquen</option>
+              <option value="Río Negro">Río Negro</option>
+              <option value="Salta">Salta</option>
+              <option value="San Juan">San Juan</option>
+              <option value="San Luis">San Luis</option>
+              <option value="Santa Cruz">Santa Cruz</option>
+              <option value="Santiago del Estero">Santiago del Estero</option>
+              <option value="Tierra del Fuego">Tierra del Fuego</option>
+              <option value="Tucumán">Tucumán</option>
+            </select>
+          </div>
+          <div>
+            <button type="submit" class="text-bg-success">Registrarme</button>
+          </div>
+        </form>
+      </section>
     </main>
     <footer class="bg-dark py-3 text-light">
         <div class="container-fluid">
