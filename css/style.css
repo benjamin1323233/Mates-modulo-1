@@ -9,10 +9,21 @@ body{
 
 main{
     flex-grow: 1;
+    background-color: rgba(172, 255, 47, 0.308);
 }
 
 footer{
     max-width: 100%;
+}
+
+input{
+    width: 100%;
+    background-color: rgb(190, 252, 97);
+}
+
+select{
+    width: 100%;
+    background-color: rgb(190, 252, 97);
 }
 
 .navbar{
@@ -27,6 +38,18 @@ footer{
 }
 .section1{
     font-family: "Iansui";
+}
+
+.formRegister{
+    border-radius: 10px;
+    width: 30%;
+    background-color: rgba(129, 255, 129, 0.637);
+    box-shadow: 0 8px 20px 0 rgb(177, 255, 76);
+}
+
+.buttonForm{
+    width: 100%;
+    margin-top: 15px;
 }
 
 .logo-footer {
