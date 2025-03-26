@@ -1,73 +1,20 @@
-@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Iansui&display=swap");
-/* es el color verde del fondo de acerca de nosotros */
-.bgAcercaNos {
-  background-color: rgb(69, 116, 65);
-}
-.borderadius {
-  border-radius: 5px;
-}
-/* es el tamaño de las img de acerca de nosotros */
-.tamañoSobreNosotros {
-  object-fit: cover;
-}
-/* tamaño de las imagenes del carrusel de sobre nosotros */
-.carruselSobreNosotros {
-  object-fit: cover;
-  height: 500px;
-}
-/* fondo de los cuadros de sobre nosotros */
-.bg-SN {
-  background-color: rgb(255, 252, 235);
-}
-/* esta media query ajusta el tamaño del carrusel de acerca de nosotros para dispositivos pequeños */
-/* nav */
 
-/* es el color verde del fondo de acerca de nosotros */
-/* es el color verde del fondo de acerca de nosotros */
-.bgAcercaNos {
-  background-color: rgb(69, 116, 65);
-}
-.borderadius {
-  border-radius: 5px;
-}
-/* es el tamaño de las img de acerca de nosotros */
-.tamañoSobreNosotros {
-  object-fit: cover;
-}
-/* tamaño de las imagenes del carrusel de sobre nosotros */
-.carruselSobreNosotros {
-  object-fit: cover;
-  height: 500px;
-}
-/* fondo de los cuadros de sobre nosotros */
-.bg-SN {
-  background-color: rgb(255, 252, 235);
-}
-/* esta media query ajusta el tamaño del carrusel de acerca de nosotros para dispositivos pequeños */
-/* nav */
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iansui&display=swap');
 
-.bgAcercaNos {
-  background-color: rgb(69, 116, 65);
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
-.borderadius {
-  border-radius: 5px;
+
+main{
+    flex-grow: 1;
 }
-/* es el tamaño de las img de acerca de nosotros */
-.tamañoSobreNosotros {
-  object-fit: cover;
+
+footer{
+    max-width: 100%;
 }
-/* tamaño de las imagenes del carrusel de sobre nosotros */
-.carruselSobreNosotros {
-  object-fit: cover;
-  height: 500px;
-}
-/* fondo de los cuadros de sobre nosotros */
-.bg-SN {
-  background-color: rgb(255, 252, 235);
-}
-/* esta media query ajusta el tamaño del carrusel de acerca de nosotros para dispositivos pequeños */
-/* nav */
 
 /* es el color verde del fondo de acerca de nosotros */
 .bgAcercaNos {
@@ -91,9 +38,13 @@
 }
 /* esta media query ajusta el tamaño del carrusel de acerca de nosotros para dispositivos pequeños */
 /* nav */
-.navbar {
-  background-color: rgb(34, 134, 47);
-  font-family: "Iansui";
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iansui&display=swap');
+
+.navbar{
+    background-color: rgb(34, 134, 47);
+    font-family: "Iansui";
+
 }
 .navbar-logo img {
   height: 50px;
@@ -104,6 +55,7 @@
 .section1 {
   font-family: "Iansui";
 }
+
 
 body {
   display: flex;
@@ -117,9 +69,11 @@ main {
 
 /* esilos Footer index */
 
+
 .logo-footer {
   height: 130px;
 }
+
 
 @media (min-width: 767px) and (max-width: 991px) {
   .carruselSobreNosotros {
@@ -131,4 +85,10 @@ h2 {
 }
 #CarrouselPromo {
   width: 500px;
+}
+
+
+.giferror404 {
+    max-width: 100%;
+    overflow: hidden;
 }
