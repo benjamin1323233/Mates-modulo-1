@@ -51,7 +51,15 @@ main {
 .logo-footer {
     height: 130px;
 }
-
+/* imagenes de perfiles sobre nosotros */
+.imgPerfil{
+    max-height: 300px;
+    max-width: 300px;
+}
+/* añade la propiedad cover a la imagenes del modal y pagina sobre nosotros */
+.cover{
+    object-fit: cover;
+}
 @media (min-width:767px) and (max-width:991px){
     .carruselSobreNosotros{
         height: 300px;
