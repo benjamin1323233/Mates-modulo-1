@@ -86,7 +86,9 @@ h2 {
 #CarrouselPromo {
   width: 500px;
 }
-
+.cover{
+    object-fit: cover;
+}
 
 .giferror404 {
     max-width: 100%;
