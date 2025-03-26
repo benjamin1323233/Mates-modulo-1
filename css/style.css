@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iansui&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex-grow: 1;
+}
+
+footer{
+    max-width: 100%;
+}
+
 /* es el color verde del fondo de acerca de nosotros */
 .bgAcercaNos{
  background-color: rgb(69, 116, 65);
@@ -22,6 +39,7 @@
 /* nav */
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Iansui&display=swap');
+
 .navbar{
     background-color: rgb(34, 134, 47);
     font-family: "Iansui";
@@ -36,6 +54,7 @@
     font-family: "Iansui";
 }
 
+
 body {
     display: flex;
     flex-direction: column;
@@ -48,8 +67,15 @@ main {
 
 /* esilos Footer index */
 
+
 .logo-footer {
     height: 130px;
+}
+
+
+.giferror404 {
+    max-width: 100%;
+    overflow: hidden;
 }
 
 @media (min-width:767px) and (max-width:991px){
