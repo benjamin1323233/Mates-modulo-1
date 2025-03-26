@@ -92,7 +92,9 @@ h2 {
 #CarrouselPromo {
   width: 500px;
 }
-
+.cover{
+    object-fit: cover;
+}
 
 .giferror404 {
     max-width: 100%;
@@ -100,9 +102,82 @@ h2 {
 }
 
 
+
 @media all and (max-width: 617px) {
     .formRegister{
         width: 90%;
     }
+}
+
+
+@media (min-width:767px) and (max-width:991px){
+    .carruselSobreNosotros{
+        height: 300px;
+}}
+
+
+
+
+/* Estilos pagina detallesProducto */
+.contenedorKitMatero {
+    overflow: hidden;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.imagenKitMatero {
+    filter: grayscale(60%);
+    transition: 400ms;
+    width: 100%;
+    height: 100%;
+}
+
+.imagenKitMatero:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
+@media all and (max-width: 767px) {
+    .imagenKitMatero {
+        filter: grayscale(0%);
+    }
+}
+
+.mediosDePago {
+    text-decoration: none;
+}
+
+.boton-comprar {
+    transition: font-size 400ms ease-out ;
+}
+
+.boton-comprar:hover {
+    font-size: larger;
+}
+
+.cardEffect {
+    transition: all 0.3s ease;
+    box-shadow: 0 0 5px rgba(92, 8, 177, 0.4)px rgb(92, 8, 177), 0 0 15px rgb(92, 8, 177);
+}
+
+.cardEffect:hover{
+    box-shadow: 0 0 5px rgb(92, 8, 177), 0 0 10px rgb(92, 8, 177), 0 0 15px rgb(92, 8, 177);
+    z-index: 1;
+}
+
+.cardEffectContenedorDetalles {
+    box-shadow: 0 0 5px rgba(127, 51, 85, 0.49), 0 0 10px rgba(127, 51, 85, 0.49), 0 0 15px rgba(127, 51, 85, 0.49);
+}
+
+/* Etilo pagina detalle Carrito */
+
+.total-compra {
+    box-shadow: 0 0 5px rgba(127, 51, 85, 0.49), 0 0 10px rgba(127, 51, 85, 0.49), 0 0 15px rgba(127, 51, 85, 0.49);
+    border-radius: 5px;
+    padding: 15px;
+    max-height: 400px; /* Altura máxima para scroll */
+    overflow-y: auto; /* Scroll vertical */
+    position: sticky; /* Fijo mientras se hace scroll en pantallas grandes */
+    top: 100px; /* Separación desde arriba */
 }
 
