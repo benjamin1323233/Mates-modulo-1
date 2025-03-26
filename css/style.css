@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Iansui&display=swap');
 
@@ -14,7 +15,6 @@ main{
 footer{
     max-width: 100%;
 }
-
 input{
     width: 100%;
     background-color: rgb(190, 252, 97);
@@ -25,19 +25,44 @@ select{
     background-color: rgb(190, 252, 97);
 }
 
+/* es el color verde del fondo de acerca de nosotros */
+.bgAcercaNos {
+  background-color: rgb(69, 116, 65);
+}
+.borderadius {
+  border-radius: 5px;
+}
+/* es el tamaño de las img de acerca de nosotros */
+.tamañoSobreNosotros {
+  object-fit: cover;
+}
+/* tamaño de las imagenes del carrusel de sobre nosotros */
+.carruselSobreNosotros {
+  object-fit: cover;
+  height: 500px;
+}
+/* fondo de los cuadros de sobre nosotros */
+.bg-SN {
+  background-color: rgb(255, 252, 235);
+}
+/* esta media query ajusta el tamaño del carrusel de acerca de nosotros para dispositivos pequeños */
+
+
 .navbar{
     background-color: rgb(34, 134, 47);
     font-family: "Iansui";
+
 }
 .navbar-logo img {
-    height: 50px;
+  height: 50px;
 }
-.navbar-brand{
-    font-family:"Rock Salt";
+.navbar-brand {
+  font-family: "Rock Salt";
 }
-.section1{
-    font-family: "Iansui";
+.section1 {
+  font-family: "Iansui";
 }
+
 
 .formRegister{
     border-radius: 10px;
@@ -52,16 +77,32 @@ select{
 }
 
 .logo-footer {
-    height: 130px;
+  height: 130px;
 }
+
+
+@media (min-width: 767px) and (max-width: 991px) {
+  .carruselSobreNosotros {
+    height: 300px;
+  }
+}
+h2 {
+  font-family: "Rock Salt";
+}
+#CarrouselPromo {
+  width: 500px;
+}
+
 
 .giferror404 {
     max-width: 100%;
     overflow: hidden;
 }
 
+
 @media all and (max-width: 617px) {
     .formRegister{
         width: 90%;
     }
 }
+
