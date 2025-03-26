@@ -51,7 +51,10 @@ main {
 .logo-footer {
     height: 130px;
 }
-
+/* cover para la imagen del modal */
+.cover{
+    object-fit: cover;
+}
 @media (min-width:767px) and (max-width:991px){
     .carruselSobreNosotros{
         height: 300px;
