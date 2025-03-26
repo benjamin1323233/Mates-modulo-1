@@ -42,7 +42,7 @@ select{
 
 .formRegister{
     border-radius: 10px;
-    width: 30%;
+    width: 40%;
     background-color: rgba(129, 255, 129, 0.637);
     box-shadow: 0 8px 20px 0 rgb(177, 255, 76);
 }
@@ -59,4 +59,10 @@ select{
 .giferror404 {
     max-width: 100%;
     overflow: hidden;
+}
+
+@media all and (max-width: 617px) {
+    .formRegister{
+        width: 90%;
+    }
 }
