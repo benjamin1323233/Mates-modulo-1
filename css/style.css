@@ -9,7 +9,6 @@ body{
 
 main{
     flex-grow: 1;
-    background-color: rgba(172, 255, 47, 0.308);
 }
 
 footer{
@@ -44,7 +43,7 @@ select{
     border-radius: 10px;
     width: 40%;
     background-color: rgba(129, 255, 129, 0.637);
-    box-shadow: 0 8px 20px 0 rgb(177, 255, 76);
+    box-shadow: 0 5px 20px 0 rgb(177, 255, 76);
 }
 
 .buttonForm{
