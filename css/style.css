@@ -100,6 +100,15 @@ h2 {
     max-width: 100%;
     overflow: hidden;
 }
+/* imagenes de perfiles sobre nosotros */
+.imgPerfil{
+    max-height: 300px;
+    max-width: 300px;
+}
+/* añade la propiedad cover a la imagenes del modal y pagina sobre nosotros */
+.cover{
+    object-fit: cover;
+}
 
 
 
@@ -108,6 +117,7 @@ h2 {
         width: 90%;
     }
 }
+
 
 
 @media (min-width:767px) and (max-width:991px){
