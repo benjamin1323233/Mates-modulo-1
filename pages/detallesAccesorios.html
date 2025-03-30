@@ -1,720 +1,735 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Quiros Benjamin,Lucas Figueroa, Milton Mamani, Ezequiel peregrini,Luchiano Guiot">
-    <meta name="description" content="e-comerce de mates,termos y mas productos con los cuales podras conseguir tu mate ideal con un gran precio y calidad">
-    <meta name="keyboards" content="mates, termos,cebar,e-comerce, yerba,bombillas,online mates,termos online">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="icon" href="/img/matelogopng.webp" type="image/x-icon"><title>Proyecto</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="author"
+      content="Quiros Benjamin,Lucas Figueroa, Milton Mamani, Ezequiel peregrini,Luchiano Guiot"
+    />
+    <meta
+      name="description"
+      content="e-comerce de mates,termos y mas productos con los cuales podras conseguir tu mate ideal con un gran precio y calidad"
+    />
+    <meta
+      name="keyboards"
+      content="mates, termos,cebar,e-comerce, yerba,bombillas,online mates,termos online"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="icon" href="/img/matelogopng.webp" type="image/x-icon" />
+    <title>Proyecto</title>
     <title>Mateando</title>
-</head>
-<nav class="navbar navbar-expand-lg" data-bs-theme="dark">
-  <div class="container-fluid">
-    <a href="../index.html" class="navbar-logo">
-      <img
-        src="../img/matelogopng.webp"
-        alt="Logo de mi sitio"
-        class="img-fluid"
-      />
-      <a class="navbar-brand" href="../index.html">Mateando!</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item me-2">
-            <a
-              class="nav-link active"
-              aria-current="page"
-              href="../index.html"
-              >Inicio</a
-            >
-          </li>
-          <li class="nav-item me-2">
-            <a class="nav-link" href="./sobreNosotros.html">Nosotros</a>
-          </li>
-          <li class="nav-item me-2">
-            <a class="nav-link" href="./contacto.html">Contacto</a>
-          </li>
-          <li class="nav-item me-2">
-            <a class="nav-link" href="./detalleProducto.html">Producto</a>
-          </li>
-          <li class="nav-item me-2">
-            <a class="nav-link" href="./detalleCarrito.html">Carrito</a>
-          </li>
-          <li class="nav-item me-2">
-            <a class="nav-link" href="./error404.html">Registro</a>
-          </li>
-        </ul>
-        <form class="d-flex" role="search">
-          <input
-            class="form-control me-2"
-            data-bs-theme="light"
-            type="search"
-            placeholder="Buscar..."
-            aria-label="Search"
-          />
-          <button class="btn btn-outline-light text-ligh" type="submit">
-            Buscar
-          </button>
-        </form>
-        <!-- inicio modal -->
+  </head>
+  <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a href="../index.html" class="navbar-logo">
+        <img
+          src="../img/matelogopng.webp"
+          alt="Logo de mi sitio"
+          class="img-fluid"
+        />
+        <a class="navbar-brand" href="../index.html">Mateando!</a>
         <button
+          class="navbar-toggler"
           type="button"
-          class="btn btn-outline-light text-light mx-1"
-          data-bs-toggle="modal"
-          data-bs-target="#modalCrearCuenta"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
-          Iniciar sesion
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <section
-          class="modal fade"
-          id="modalCrearCuenta"
-          tabindex="-1"
-          aria-labelledby="modalRegisterLabel"
-          aria-hidden="true"
-          data-bs-theme="light"
-        >
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h2 class="modal-title fs-5" id="modalRegisterLabel">
-                  iniciar sesion
-                </h2>
-                <button
-                  type="button"
-                  class="btn-close"
-                  data-bs-dismiss="modal"
-                  aria-label="Close"
-                ></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item me-2">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="../index.html"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item me-2">
+              <a class="nav-link" href="./sobreNosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item me-2">
+              <a class="nav-link" href="./contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item me-2">
+              <a class="nav-link" href="./detalleProducto.html">Producto</a>
+            </li>
+            <li class="nav-item me-2">
+              <a class="nav-link" href="./detalleCarrito.html">Carrito</a>
+            </li>
+            <li class="nav-item me-2">
+              <a class="nav-link" href="./error404.html">Registro</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              data-bs-theme="light"
+              type="search"
+              placeholder="Buscar..."
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-light text-ligh" type="submit">
+              Buscar
+            </button>
+          </form>
+          <!-- inicio modal -->
+          <button
+            type="button"
+            class="btn btn-outline-light text-light mx-1"
+            data-bs-toggle="modal"
+            data-bs-target="#modalCrearCuenta"
+          >
+            Iniciar sesion
+          </button>
+          <section
+            class="modal fade"
+            id="modalCrearCuenta"
+            tabindex="-1"
+            aria-labelledby="modalRegisterLabel"
+            aria-hidden="true"
+            data-bs-theme="light"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h2 class="modal-title fs-5" id="modalRegisterLabel">
+                    iniciar sesion
+                  </h2>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <p>Completa los siguientes datos para entrar a tu cuenta:</p>
+                  <section class="container">
+                    <div class="row">
+                      <article class="col-12 col-md-12 col-lg-8 my-2">
+                        <form id="formModal">
+                          <div class="mb-3">
+                            <label for="NombreModal" class="form-label"
+                              >Nombre y apellido</label
+                            >
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="NombreModal"
+                              required
+                              minlength="5"
+                              maxlength="50"
+                              placeholder="Charles Leclerc"
+                            />
+                          </div>
+
+                          <div class="mb-3">
+                            <label for="contraseñaModal" class="form-label"
+                              >Contraseña</label
+                            >
+                            <input
+                              type="password"
+                              class="form-control"
+                              id="contraseñaModal"
+                              required
+                              minlength="3"
+                              maxlength="15"
+                            />
+                          </div>
+                          <div class="mb-3">
+                            <label
+                              for="repetircontraseñaModal"
+                              class="form-label"
+                              >Repetir contraseña</label
+                            >
+                            <input
+                              type="password"
+                              class="form-control"
+                              id="repetircontraseñaModal"
+                              required
+                              minlength="3"
+                              maxlength="15"
+                            />
+                          </div>
+
+                          <button
+                            type="sumit"
+                            form="formModal"
+                            class="btn bg-success"
+                          >
+                            Iniciar sesion
+                          </button>
+                        </form>
+                      </article>
+                      <article
+                        class="col-12 col-md-12 col-lg-4 d-flex align-items"
+                      >
+                        <img
+                          src="./img/img-mate guarda asbtracta.webp"
+                          class="img-fluid cover"
+                          alt="imagen de mate y termo"
+                        />
+                      </article>
+
+                      <article class="col-12 mt-3">
+                        <p>
+                          Inicia sesion con:<a href="#"
+                            ><i
+                              class="bi bi-google mx-2 fs-5 link-secondary"
+                            ></i> </a
+                          ><a href="#"
+                            ><i class="bi bi-facebook fs-5 link-secondary"></i
+                          ></a>
+                        </p>
+                      </article>
+                      <article class="col-12">
+                        <a href="#">¿No recuerdas tu contraseña?</a>
+                      </article>
+                    </div>
+                  </section>
+                </div>
               </div>
-              <div class="modal-body">
-                <p>
-                  Completa los siguientes datos para entrar a tu cuenta:
+            </div>
+          </section>
+          <!-- fin modal -->
+        </div>
+      </a>
+    </div>
+  </nav>
+  <body>
+    <header></header>
+    <main>
+      <!--imagenes y descripciones-->
+      <section class="container my-5 mt-4">
+        <h1 class="text-center fw-bolder my-2">Acesorios y mas</h1>
+        <div class="g-4 row row-cols-1 row-cols-md-3">
+          <div class="col">
+            <div class="card h-100 rounded-5 shadow">
+              <img
+                src="../img/Canasta matera Premium.jpeg"
+                class="card-img-top rounded-top-5 fotosAccion"
+                alt="Canasta matera Premium"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bolder text-center">
+                  Canasta Matera Premium
+                </h5>
+                <p class="card-text text-center">Descripción del producto</p>
+                <ul>
+                  <li>CANASTA MATERA PREMIUM CONFECCIONADA EN CUERO.</li>
+                  <li>REALIZADA A MANO.</li>
+                  <li>
+                    CAPACIDAD PARA ALMACENAR MATE (cualquier tamaño), TERMO
+                    (cualquier tamaño), YERBA/YERBERA.
+                  </li>
+                  <li>
+                    LOS LABRADOS EN EL CUERO DE LA MISMA SON DIFERENTES EN CADA
+                    MATERA.
+                  </li>
+                </ul>
+                <p class="card-text text-center">
+                  <b> $45.760,00</b>
                 </p>
-                <section class="container">
-                  <div class="row">
-                    <article class="col-12 col-md-12 col-lg-8 my-2">
-                      <form id="formModal">
-                        <div class="mb-3">
-                          <label for="NombreModal" class="form-label"
-                            >Nombre y apellido</label
-                          >
-                          <input
-                            type="text"
-                            class="form-control"
-                            id="NombreModal"
-                            required
-                            minlength="5"
-                            maxlength="50"
-                            placeholder="Charles Leclerc"
-                          />
-                        </div>
-
-                        <div class="mb-3">
-                          <label for="contraseñaModal" class="form-label"
-                            >Contraseña</label
-                          >
-                          <input
-                            type="password"
-                            class="form-control"
-                            id="contraseñaModal"
-                            required
-                            minlength="3"
-                            maxlength="15"
-                          />
-                        </div>
-                        <div class="mb-3">
-                          <label
-                            for="repetircontraseñaModal"
-                            class="form-label"
-                            >Repetir contraseña</label
-                          >
-                          <input
-                            type="password"
-                            class="form-control"
-                            id="repetircontraseñaModal"
-                            required
-                            minlength="3"
-                            maxlength="15"
-                          />
-                        </div>
-
-                        <button
-                          type="sumit"
-                          form="formModal"
-                          class="btn bg-success"
-                        >
-                          Iniciar sesion
-                        </button>
-                      </form>
-                    </article>
-                    <article
-                      class="col-12 col-md-12 col-lg-4 d-flex align-items"
-                    >
-                      <img
-                        src="./img/img-mate guarda asbtracta.webp"
-                        class="img-fluid cover"
-                        alt="imagen de mate y termo"
-                      />
-                    </article>
-
-                    <article class="col-12 mt-3">
-                      <p>
-                        Inicia sesion con:<a href="#"
-                          ><i
-                            class="bi bi-google mx-2 fs-5 link-secondary"
-                          ></i> </a
-                        ><a href="#"
-                          ><i
-                            class="bi bi-facebook fs-5 link-secondary"
-                          ></i
-                        ></a>
-                      </p>
-                    </article>
-                    <article class="col-12">
-                      <a href="#">¿No recuerdas tu contraseña?</a>
-                    </article>
-                  </div>
-                </section>
+                <p class="card-text text-center">
+                  <small class="text-body-secondary"
+                    >20% OFF con efectivo o trasnferencia bancaria</small
+                  >
+                </p>
+              </div>
+              <div class="card-footer d-flex justify-content-center">
+                <button class="btn btn-dark" type="button">Compra</button>
               </div>
             </div>
           </div>
-        </section>
-        <!-- fin modal -->
-      </div>
-    </a>
-  </div>
-</nav>
-<body>
-    <header></header>
-    <main>
-            <!--imagenes y descripciones-->
-            <section class="container my-5 mt-4">
-              <h1 class="text-center fw-bolder my-2">Acesorios y mas</h1>
-              <div class="g-4 row row-cols-1 row-cols-md-3">
-                <div class="col">
-                  <div class="card h-100 rounded-5 shadow">
-                    <img
-                      src="../img/Canasta matera Premium.jpeg"
-                      class="card-img-top rounded-top-5 fotosAccion"
-                      alt="Canasta matera Premium"
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title fw-bolder text-center">
-                        Canasta Matera Premium
-                      </h5>
-                      <p class="card-text text-center">Descripción del producto</p>
-                      <ul>
-                        <li>CANASTA MATERA PREMIUM CONFECCIONADA EN CUERO.</li>
-                        <li>REALIZADA A MANO.</li>
-                        <li>
-                          CAPACIDAD PARA ALMACENAR MATE (cualquier tamaño), TERMO
-                          (cualquier tamaño), YERBA/YERBERA.
-                        </li>
-                        <li>
-                          LOS LABRADOS EN EL CUERO DE LA MISMA SON DIFERENTES EN CADA
-                          MATERA.
-                        </li>
-                      </ul>
-                      <p class="card-text text-center">
-                        <b> $45.760,00</b>
-                      </p>
-                      <p class="card-text text-center">
-                        <small class="text-body-secondary"
-                          >20% OFF con efectivo o trasnferencia bancaria</small
-                        >
-                      </p>
-                    </div>
-                    <div class="card-footer d-flex justify-content-center">
-                      <button class="btn btn-dark" type="button">Compra</button>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100 shadow rounded-5">
-                    <img
-                      src="../img/Yerbero marron.jpeg"
-                      class="card-img-top rounded-top-5 fotosAccion"
-                      alt="Yerbero marrón"
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title fw-bolder text-center">Yerbero marrón</h5>
-                      <p class="card-text text-center">Descripción del producto</p>
-                      <ul>
-                        <li>Yerbero de cuero descarne en color marrón tipo gamuza</li>
-                        <li>Cierre en parte superior</li>
-                        <li>Capacidad 500g</li>
-                        <li>Envíos a todo el país</li>
-                        <li>3 cuotas sin interés con Mercado Pago</li>
-                      </ul>
-                      <p class="card-text text-center"><b>$13.000,00</b></p>
-                      <p class="card-text text-center">
-                        <small class="text-body-secondary"
-                          >20% OFF con efectivo o trasnferencia bancaria</small
-                        >
-                      </p>
-                    </div>
-                    <div class="card-footer d-flex justify-content-center">
-                      <button class="btn btn-dark" type="button">Compra</button>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100 shadow rounded-5">
-                    <img
-                      src="../img/Yerbero negro.jpeg"
-                      class="card-img-top rounded-top-5 fotosAccion"
-                      alt="Yerbero negro"
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title fw-bolder text-center">Yerbero negro</h5>
-                      <p class="card-text text-center">Descripción del producto</p>
-                      <ul>
-                        <li>Yerbero de cuero descarne en color marrón tipo gamuza</li>
-                        <li>Cierre en parte superior</li>
-                        <li>Capacidad 500g</li>
-                        <li>Envíos a todo el país</li>
-                        <li>3 cuotas sin interés con Mercado Pago</li>
-                      </ul>
-      
-                      <p class="card-text text-center"><b>$13.000,00</b></p>
-                      <p class="card-text text-center">
-                        <small class="text-body-secondary"
-                          >20% OFF con efectivo o trasnferencia bancaria</small
-                        >
-                      </p>
-                    </div>
-                    <div class="card-footer d-flex justify-content-center">
-                      <button class="btn btn-dark" type="button">Compra</button>
-                    </div>
-                  </div>
-                </div>
+          <div class="col">
+            <div class="card h-100 shadow rounded-5">
+              <img
+                src="../img/Yerbero marron.jpeg"
+                class="card-img-top rounded-top-5 fotosAccion"
+                alt="Yerbero marrón"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bolder text-center">Yerbero marrón</h5>
+                <p class="card-text text-center">Descripción del producto</p>
+                <ul>
+                  <li>Yerbero de cuero descarne en color marrón tipo gamuza</li>
+                  <li>Cierre en parte superior</li>
+                  <li>Capacidad 500g</li>
+                  <li>Envíos a todo el país</li>
+                  <li>3 cuotas sin interés con Mercado Pago</li>
+                </ul>
+                <p class="card-text text-center"><b>$13.000,00</b></p>
+                <p class="card-text text-center">
+                  <small class="text-body-secondary"
+                    >20% OFF con efectivo o trasnferencia bancaria</small
+                  >
+                </p>
               </div>
-              <div class="g-4 row row-cols-1 row-cols-md-3 my-3">
-                <div class="col">
-                  <div class="card h-100 rounded-5 shadow">
-                    <img
-                      src="../img/Tapas anti vientos alpaca.jpeg"
-                      class="card-img-top rounded-top-5 fotosAccion"
-                      alt="Tapas anti vientos alpaca"
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title fw-bolder">Descripción del producto</h5>
-                      <ul>
-                        <li>TAPA ANTI VIENTO DE ALPACA</li>
-                        <li>CINCELADA A MANO</li>
-                        <li>UNICAMENTE PARA MODELOS CAMIONEROS O IMPERIALES</li>
-                      </ul>
-                      <p class="card-text text-center">
-                        <b> $14.352,00</b>
-                      </p>
-                      <p class="card-text text-center">
-                        <small class="text-body-secondary"
-                          >20% OFF con efectivo o trasnferencia bancaria</small
-                        >
-                      </p>
-                    </div>
-                    <div class="card-footer d-flex justify-content-center">
-                      <button class="btn btn-dark" type="button">Compra</button>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100 shadow rounded-5">
-                    <img
-                      src="../img/kit de limpieza.jpeg"
-                      class="card-img-top rounded-top-5 fotosAccion"
-                      alt="kit de limpieza"
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title fw-bolder text-center">Kit limpieza</h5>
-                      <p class="card-text text-center">Descripción del producto</p>
-                      <p class="card-text">
-                        La solución para el cuidado de tus mates y bombillas! Este kit
-                        incluye:
-                      </p>
-                      <ul>
-                        <li>Frasco con producto para limpiar la alpaca y/o acero.</li>
-                        <li>Franela.</li>
-                      </ul>
-                      <p class="card-text text-center"><b>$3.068,00</b></p>
-                      <p class="card-text text-center">
-                        <small class="text-body-secondary"
-                          >20% OFF con efectivo o trasnferencia bancaria</small
-                        >
-                      </p>
-                    </div>
-                    <div class="card-footer d-flex justify-content-center">
-                      <button class="btn btn-dark" type="button">Compra</button>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100 shadow rounded-5">
-                    <img
-                      src="../img/Porta mate de cuero.jpg"
-                      class="card-img-top rounded-top-5 fotosAccion"
-                      alt="porta mate"
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title fw-bolder text-center">Porta mate</h5>
-                      <p class="card-text text-center">Descripción del producto</p>
-                      <ul>
-                        <li>PORTA MATE PARA EL AUTO (PALANCA DE CAMBIO)</li>
-                        <li>REALIZADA A MANO</li>
-                        <li>CAPACIDAD PARA ALMACENAR MATE 11CM DIAMETRO</li>
-                      </ul>
-                      <p class="card-text text-center"><b>$18.720,00</b></p>
-                      <p class="card-text text-center">
-                        <small class="text-body-secondary"
-                          >20% OFF con efectivo o trasnferencia bancaria</small
-                        >
-                      </p>
-                    </div>
-                    <div class="card-footer d-flex justify-content-center">
-                      <button class="btn btn-dark" type="button">Compra</button>
-                    </div>
-                  </div>
-                </div>
+              <div class="card-footer d-flex justify-content-center">
+                <button class="btn btn-dark" type="button">Compra</button>
               </div>
-              <div class="g-4 row row-cols-1 row-cols-md-3 my-3">
-                <div class="col">
-                  <div class="card h-100 rounded-5 shadow text-center">
-                    <img
-                      src="../img/Canasta Matera doble.jpg"
-                      class="card-img-top rounded-top-5 fotosAccion"
-                      alt="Canasta Matera doble"
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title fw-bolder">Canasta Matera doble</h5>
-                      <p class="card-text text-center">Descripción del producto</p>
-                      <ul>
-                        <li>CANASTA MATERA CONFECCIONADA EN CUERO.</li>
-                        <li>REALIZADA A MANO.</li>
-                        <li>
-                          CAPACIDAD PARA ALMACENAR MATE (cualquier tamaño), TERMO
-                          (cualquier tamaño) y algún accesorio pequeño.
-                        </li>
-                        <li>La opción de color Bordo es bien oscura.</li>
-                      </ul>
-                      <p class="card-text text-center">
-                        <b> $43.680,00</b>
-                      </p>
-                      <p class="card-text text-center">
-                        <small class="text-body-secondary"
-                          >20% OFF con efectivo o trasnferencia bancaria</small
-                        >
-                      </p>
-                    </div>
-                    <div class="card-footer d-flex justify-content-center">
-                      <button class="btn btn-dark" type="button">Compra</button>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100 shadow rounded-5">
-                    <img
-                      src="../img/Almohada matera.jpg"
-                      class="card-img-top rounded-top-5 fotosAccion"
-                      alt="Almohada matera"
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title fw-bolder text-center">
-                        Almohada matera
-                      </h5>
-                      <p class="card-text text-center">Descripción del producto</p>
-                      <ul>
-                        <li>Almohada matera</li>
-                        <li>
-                          Espacio para termo, mate, libro, y control de la tele o
-                          podes usarlo con lo que vos prefieras!
-                        </li>
-                        <li>
-                          Ideal para tomar mate en la cama o sillón sin preocupaciones
-                        </li>
-                      </ul>
-                      <p class="card-text text-center"><b>$53.040,00</b></p>
-                      <p class="card-text text-center">
-                        <small class="text-body-secondary"
-                          >20% OFF con efectivo o trasnferencia bancaria</small
-                        >
-                      </p>
-                    </div>
-                    <div class="card-footer d-flex justify-content-center">
-                      <button class="btn btn-dark" type="button">Compra</button>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100 shadow rounded-5">
-                    <img
-                      src="../img/Canasta matera  cuero crudo.jpg"
-                      class="card-img-top rounded-top-5 fotosAccion"
-                      alt="Canasta matera  cuero crudo"
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title fw-bolder text-center">
-                        Canasta Matera Cuero crudo
-                      </h5>
-                      <p class="card-text text-center">Descripción del producto</p>
-                      <ul>
-                        <li>CANASTA MATERA CONFECCIONADA EN MADERA Y CUERO CRUDO</li>
-                        <li>REALIZADA A MANO</li>
-                        <li>
-                          CAPACIDAD PARA ALMACENAR MATE (cualquier tamaño), TERMO
-                          (cualquier tamaño) y algún accesorio pequeño
-                        </li>
-                      </ul>
-                      <p class="card-text text-center"><b>$119.600,00</b></p>
-                      <p class="card-text text-center">
-                        <small class="text-body-secondary"
-                          >20% OFF con efectivo o trasnferencia bancaria</small
-                        >
-                      </p>
-                    </div>
-                    <div class="card-footer d-flex justify-content-center">
-                      <button class="btn btn-dark" type="button">Compra</button>
-                    </div>
-                  </div>
-                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow rounded-5">
+              <img
+                src="../img/Yerbero negro.jpeg"
+                class="card-img-top rounded-top-5 fotosAccion"
+                alt="Yerbero negro"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bolder text-center">Yerbero negro</h5>
+                <p class="card-text text-center">Descripción del producto</p>
+                <ul>
+                  <li>Yerbero de cuero descarne en color marrón tipo gamuza</li>
+                  <li>Cierre en parte superior</li>
+                  <li>Capacidad 500g</li>
+                  <li>Envíos a todo el país</li>
+                  <li>3 cuotas sin interés con Mercado Pago</li>
+                </ul>
+
+                <p class="card-text text-center"><b>$13.000,00</b></p>
+                <p class="card-text text-center">
+                  <small class="text-body-secondary"
+                    >20% OFF con efectivo o trasnferencia bancaria</small
+                  >
+                </p>
               </div>
-              <div class="g-4 row row-cols-1 row-cols-md-3 my-2">
-                <div class="col">
-                  <div class="card h-100 rounded-5 shadow">
-                    <img
-                      src="../img/tapamate.jpg"
-                      class="card-img-top rounded-top-5 fotosAccion"
-                      alt="Tapa de mate"
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title fw-bolder text-center">TAPAMATE</h5>
-                      <p class="card-text">Características:</p>
-                      <ul>
-                        <li>
-                          Sirve para todo tipo de mates (Se estira de 4,5 a 13 cm) .
-                        </li>
-                        <li>Resiste al calor /li></li>
-                        <li>Hermético/Impermeable</li>
-                        <li>
-                          Es el sustituto ideal para las bolsitas de nylon. Producto
-                          100% argentino
-                        </li>
-                      </ul>
-                      <p class="card-text text-center">
-                        <b> $11.900,00</b>
-                      </p>
-                      <p class="card-text">
-                        <small class="text-body-secondary"
-                          >10% OFF con efectivo o trasnferencia bancaria</small
-                        >
-                      </p>
-                    </div>
-                    <div class="card-footer d-flex justify-content-center">
-                      <button class="btn btn-dark" type="button">Compra</button>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100 shadow rounded-5">
-                    <img
-                      src="../img/luz mate mateando.jpg"
-                      class="card-img-top rounded-top-5 fotosAccion"
-                      alt="luz mate "
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title fw-bolder text-center">
-                        LUZ MATE MATEANDO
-                      </h5>
-                      <p class="card-text text-center">
-                        Ideal y creado para aquellas personas que son amantes de los
-                        mates nocturnos, esos mates en los viajes de noche o en la
-                        oscuridad.
-                      </p>
-                      <p class="card-text">
-                        ¡No te quemes más! Tiene agujeritos para que lo lleves en tus
-                        llaves.
-                      </p>
-                      <p class="card-text text-center">
-                        La famosa lucecita del mate.
-                      </p>
-                      <p class="card-text text-center"><b>$7.990,00</b></p>
-                      <p class="card-text text-center">
-                        <small class="text-body-secondary"
-                          >10% OFF con efectivo o trasnferencia bancaria</small
-                        >
-                      </p>
-                    </div>
-                    <div class="card-footer d-flex justify-content-center">
-                      <button class="btn btn-dark" type="button">Compra</button>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100 shadow rounded-5">
-                    <img
-                      src="../img/tapabombi.jpg"
-                      class="card-img-top rounded-top-5 fotosAccion"
-                      alt="tapa bombilla"
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title fw-bolder text-center">TAPABOMBI</h5>
-                      <p class="card-text text-center">
-                        Tapabombi es el nuevo complemento para tu set matero.
-                      </p>
-                      <p class="card-text">
-                        Al estar hecho en silicona se puede utilizar con todas tus
-                        bombillas, es resistente y tiene una larga vida útil. Llevalo
-                        en conjunto con tu Tapamate y evitá toda clase de derrames y
-                        salpicaduras.
-                      </p>
-                      <p class="card-text">¡Llevalo a todas partes!</p>
-                      <p class="card-text text-center"><b>$9.900,00</b></p>
-                      <p class="card-text text-center">
-                        <small class="text-body-secondary text-center"
-                          >10% OFF con efectivo o trasnferencia bancaria</small
-                        >
-                      </p>
-                    </div>
-                    <div class="card-footer d-flex justify-content-center">
-                      <button class="btn btn-dark" type="button">Compra</button>
-                    </div>
-                  </div>
-                </div>
+              <div class="card-footer d-flex justify-content-center">
+                <button class="btn btn-dark" type="button">Compra</button>
               </div>
-              <div class="g-4 row row-cols-1 row-cols-md-3">
-                <div class="col">
-                  <div class="card h-100 rounded-5 shadow">
-                    <img
-                      src="../img/porta mate marron.jpg"
-                      class="card-img-top rounded-top-5 fotosAccion"
-                      alt="porta mate rutero de color marron "
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title fw-bolder text-center">
-                        PORTAMATE RUTERO MARRÓN
-                      </h5>
-                      <p class="card-text">CARACTERISTICAS</p>
-                      <ul>
-                        <li>100% cuero</li>
-                        <li>Manija para enganchar en la palanca de cambios</li>
-                        <li>Calidad asegurada</li>
-                      </ul>
-                      <p class="card-text text-center">
-                        <b> $39.900,00</b>
-                      </p>
-                      <p class="card-text">
-                        <small class="text-body-secondary"
-                          >10% OFF con efectivo o trasnferencia bancaria</small
-                        >
-                      </p>
-                    </div>
-                    <div class="card-footer d-flex justify-content-center">
-                      <button class="btn btn-dark" type="button">Compra</button>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100 shadow rounded-5">
-                    <img
-                      src="../img/portamate negro.jpg"
-                      class="card-img-top rounded-top-5 fotosAccion"
-                      alt="PORTAMATE RUTERO NEGRO"
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title fw-bolder text-center">
-                        PORTAMATE RUTERO NEGRO
-                      </h5>
-                      <p class="card-text text-center">CARACTERISTICAS</p>
-                      <ul>
-                        <li>100% cuero</li>
-                        <li>Manija para enganchar en la palanca de cambios</li>
-                        <li>Calidad asegurada</li>
-                      </ul>
-                      <p class="card-text text-center"><b>$39.990,00</b></p>
-                      <p class="card-text text-center">
-                        <small class="text-body-secondary"
-                          >10% OFF con efectivo o trasnferencia bancaria</small
-                        >
-                      </p>
-                    </div>
-                    <div class="card-footer d-flex justify-content-center">
-                      <button class="btn btn-dark" type="button">Compra</button>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100 shadow rounded-5">
-                    <img
-                      src="../img/portamate suela.jpg"
-                      class="card-img-top rounded-top-5 fotosAccion"
-                      alt="PORTAMATE RUTERO SUELA"
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title fw-bolder text-center">
-                        PORTAMATE RUTERO SUELA
-                      </h5>
-                      <p class="card-text text-center">CARACTERISTICAS</p>
-                      <ul>
-                        <li>100% cuero</li>
-                        <li>Manija para enganchar en la palanca de cambios</li>
-                        <li>Calidad asegurada</li>
-                      </ul>
-                      <p class="card-text text-center"><b>$39.900,00</b></p>
-                      <p class="card-text text-center">
-                        <small class="text-body-secondary"
-                          >10% OFF con efectivo o trasnferencia bancaria</small
-                        >
-                      </p>
-                    </div>
-                    <div class="card-footer d-flex justify-content-center">
-                      <button class="btn btn-dark" type="button">Compra</button>
-                    </div>
-                  </div>
-                </div>
+            </div>
+          </div>
+        </div>
+        <div class="g-4 row row-cols-1 row-cols-md-3 my-3">
+          <div class="col">
+            <div class="card h-100 rounded-5 shadow">
+              <img
+                src="../img/Tapas anti vientos alpaca.jpeg"
+                class="card-img-top rounded-top-5 fotosAccion"
+                alt="Tapas anti vientos alpaca"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bolder">Descripción del producto</h5>
+                <ul>
+                  <li>TAPA ANTI VIENTO DE ALPACA</li>
+                  <li>CINCELADA A MANO</li>
+                  <li>UNICAMENTE PARA MODELOS CAMIONEROS O IMPERIALES</li>
+                </ul>
+                <p class="card-text text-center">
+                  <b> $14.352,00</b>
+                </p>
+                <p class="card-text text-center">
+                  <small class="text-body-secondary"
+                    >20% OFF con efectivo o trasnferencia bancaria</small
+                  >
+                </p>
               </div>
-      
-              <!--Paginacion-->
-              <nav class="d-flex justify-content-center my-2">
-                <ul class="pagination">
-                  <li class="page-item">
-                    <a
-                      class="page-link"
-                      href="./detalleCtegoriaTyB.html"
-                      aria-label="Previous"
-                    >
-                      <span aria-hidden="true">&laquo;</span>
-                    </a>
+              <div class="card-footer d-flex justify-content-center">
+                <button class="btn btn-dark" type="button">Compra</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow rounded-5">
+              <img
+                src="../img/kit de limpieza.jpeg"
+                class="card-img-top rounded-top-5 fotosAccion"
+                alt="kit de limpieza"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bolder text-center">Kit limpieza</h5>
+                <p class="card-text text-center">Descripción del producto</p>
+                <p class="card-text">
+                  La solución para el cuidado de tus mates y bombillas! Este kit
+                  incluye:
+                </p>
+                <ul>
+                  <li>Frasco con producto para limpiar la alpaca y/o acero.</li>
+                  <li>Franela.</li>
+                </ul>
+                <p class="card-text text-center"><b>$3.068,00</b></p>
+                <p class="card-text text-center">
+                  <small class="text-body-secondary"
+                    >20% OFF con efectivo o trasnferencia bancaria</small
+                  >
+                </p>
+              </div>
+              <div class="card-footer d-flex justify-content-center">
+                <button class="btn btn-dark" type="button">Compra</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow rounded-5">
+              <img
+                src="../img/Porta mate de cuero.jpg"
+                class="card-img-top rounded-top-5 fotosAccion"
+                alt="porta mate"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bolder text-center">Porta mate</h5>
+                <p class="card-text text-center">Descripción del producto</p>
+                <ul>
+                  <li>PORTA MATE PARA EL AUTO (PALANCA DE CAMBIO)</li>
+                  <li>REALIZADA A MANO</li>
+                  <li>CAPACIDAD PARA ALMACENAR MATE 11CM DIAMETRO</li>
+                </ul>
+                <p class="card-text text-center"><b>$18.720,00</b></p>
+                <p class="card-text text-center">
+                  <small class="text-body-secondary"
+                    >20% OFF con efectivo o trasnferencia bancaria</small
+                  >
+                </p>
+              </div>
+              <div class="card-footer d-flex justify-content-center">
+                <button class="btn btn-dark" type="button">Compra</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="g-4 row row-cols-1 row-cols-md-3 my-3">
+          <div class="col">
+            <div class="card h-100 rounded-5 shadow text-center">
+              <img
+                src="../img/Canasta Matera doble.jpg"
+                class="card-img-top rounded-top-5 fotosAccion"
+                alt="Canasta Matera doble"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bolder">Canasta Matera doble</h5>
+                <p class="card-text text-center">Descripción del producto</p>
+                <ul>
+                  <li>CANASTA MATERA CONFECCIONADA EN CUERO.</li>
+                  <li>REALIZADA A MANO.</li>
+                  <li>
+                    CAPACIDAD PARA ALMACENAR MATE (cualquier tamaño), TERMO
+                    (cualquier tamaño) y algún accesorio pequeño.
                   </li>
-                  <li class="page-item">
-                    <a class="page-link" href="./detallesCategoria.html">1</a>
+                  <li>La opción de color Bordo es bien oscura.</li>
+                </ul>
+                <p class="card-text text-center">
+                  <b> $43.680,00</b>
+                </p>
+                <p class="card-text text-center">
+                  <small class="text-body-secondary"
+                    >20% OFF con efectivo o trasnferencia bancaria</small
+                  >
+                </p>
+              </div>
+              <div class="card-footer d-flex justify-content-center">
+                <button class="btn btn-dark" type="button">Compra</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow rounded-5">
+              <img
+                src="../img/Almohada matera.jpg"
+                class="card-img-top rounded-top-5 fotosAccion"
+                alt="Almohada matera"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bolder text-center">
+                  Almohada matera
+                </h5>
+                <p class="card-text text-center">Descripción del producto</p>
+                <ul>
+                  <li>Almohada matera</li>
+                  <li>
+                    Espacio para termo, mate, libro, y control de la tele o
+                    podes usarlo con lo que vos prefieras!
                   </li>
-                  <li class="page-item">
-                    <a class="page-link" href="./detalleCtegoriaTyB.html">2</a>
-                  </li>
-                  <li class="page-item">
-                    <a class="page-link" href="./detallesAccesorios.html">3</a>
-                  </li>
-                  <li class="page-item">
-                    <a class="page-link" href="./detallesCategoria.html" aria-label="Next">
-                      <span aria-hidden="true">&raquo;</span>
-                    </a>
+                  <li>
+                    Ideal para tomar mate en la cama o sillón sin preocupaciones
                   </li>
                 </ul>
-              </nav>
-            </section>
+                <p class="card-text text-center"><b>$53.040,00</b></p>
+                <p class="card-text text-center">
+                  <small class="text-body-secondary"
+                    >20% OFF con efectivo o trasnferencia bancaria</small
+                  >
+                </p>
+              </div>
+              <div class="card-footer d-flex justify-content-center">
+                <button class="btn btn-dark" type="button">Compra</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow rounded-5">
+              <img
+                src="../img/Canasta matera  cuero crudo.jpg"
+                class="card-img-top rounded-top-5 fotosAccion"
+                alt="Canasta matera  cuero crudo"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bolder text-center">
+                  Canasta Matera Cuero crudo
+                </h5>
+                <p class="card-text text-center">Descripción del producto</p>
+                <ul>
+                  <li>CANASTA MATERA CONFECCIONADA EN MADERA Y CUERO CRUDO</li>
+                  <li>REALIZADA A MANO</li>
+                  <li>
+                    CAPACIDAD PARA ALMACENAR MATE (cualquier tamaño), TERMO
+                    (cualquier tamaño) y algún accesorio pequeño
+                  </li>
+                </ul>
+                <p class="card-text text-center"><b>$119.600,00</b></p>
+                <p class="card-text text-center">
+                  <small class="text-body-secondary"
+                    >20% OFF con efectivo o trasnferencia bancaria</small
+                  >
+                </p>
+              </div>
+              <div class="card-footer d-flex justify-content-center">
+                <button class="btn btn-dark" type="button">Compra</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="g-4 row row-cols-1 row-cols-md-3 my-2">
+          <div class="col">
+            <div class="card h-100 rounded-5 shadow">
+              <img
+                src="../img/tapamate.jpg"
+                class="card-img-top rounded-top-5 fotosAccion"
+                alt="Tapa de mate"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bolder text-center">TAPAMATE</h5>
+                <p class="card-text">Características:</p>
+                <ul>
+                  <li>
+                    Sirve para todo tipo de mates (Se estira de 4,5 a 13 cm) .
+                  </li>
+                  <li>Resiste al calor /li></li>
+                  <li>Hermético/Impermeable</li>
+                  <li>
+                    Es el sustituto ideal para las bolsitas de nylon. Producto
+                    100% argentino
+                  </li>
+                </ul>
+                <p class="card-text text-center">
+                  <b> $11.900,00</b>
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary"
+                    >10% OFF con efectivo o trasnferencia bancaria</small
+                  >
+                </p>
+              </div>
+              <div class="card-footer d-flex justify-content-center">
+                <button class="btn btn-dark" type="button">Compra</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow rounded-5">
+              <img
+                src="../img/luz mate mateando.jpg"
+                class="card-img-top rounded-top-5 fotosAccion"
+                alt="luz mate "
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bolder text-center">
+                  LUZ MATE MATEANDO
+                </h5>
+                <p class="card-text text-center">
+                  Ideal y creado para aquellas personas que son amantes de los
+                  mates nocturnos, esos mates en los viajes de noche o en la
+                  oscuridad.
+                </p>
+                <p class="card-text">
+                  ¡No te quemes más! Tiene agujeritos para que lo lleves en tus
+                  llaves.
+                </p>
+                <p class="card-text text-center">
+                  La famosa lucecita del mate.
+                </p>
+                <p class="card-text text-center"><b>$7.990,00</b></p>
+                <p class="card-text text-center">
+                  <small class="text-body-secondary"
+                    >10% OFF con efectivo o trasnferencia bancaria</small
+                  >
+                </p>
+              </div>
+              <div class="card-footer d-flex justify-content-center">
+                <button class="btn btn-dark" type="button">Compra</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow rounded-5">
+              <img
+                src="../img/tapabombi.jpg"
+                class="card-img-top rounded-top-5 fotosAccion"
+                alt="tapa bombilla"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bolder text-center">TAPABOMBI</h5>
+                <p class="card-text text-center">
+                  Tapabombi es el nuevo complemento para tu set matero.
+                </p>
+                <p class="card-text">
+                  Al estar hecho en silicona se puede utilizar con todas tus
+                  bombillas, es resistente y tiene una larga vida útil. Llevalo
+                  en conjunto con tu Tapamate y evitá toda clase de derrames y
+                  salpicaduras.
+                </p>
+                <p class="card-text">¡Llevalo a todas partes!</p>
+                <p class="card-text text-center"><b>$9.900,00</b></p>
+                <p class="card-text text-center">
+                  <small class="text-body-secondary text-center"
+                    >10% OFF con efectivo o trasnferencia bancaria</small
+                  >
+                </p>
+              </div>
+              <div class="card-footer d-flex justify-content-center">
+                <button class="btn btn-dark" type="button">Compra</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="g-4 row row-cols-1 row-cols-md-3">
+          <div class="col">
+            <div class="card h-100 rounded-5 shadow">
+              <img
+                src="../img/porta mate marron.jpg"
+                class="card-img-top rounded-top-5 fotosAccion"
+                alt="porta mate rutero de color marron "
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bolder text-center">
+                  PORTAMATE RUTERO MARRÓN
+                </h5>
+                <p class="card-text">CARACTERISTICAS</p>
+                <ul>
+                  <li>100% cuero</li>
+                  <li>Manija para enganchar en la palanca de cambios</li>
+                  <li>Calidad asegurada</li>
+                </ul>
+                <p class="card-text text-center">
+                  <b> $39.900,00</b>
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary"
+                    >10% OFF con efectivo o trasnferencia bancaria</small
+                  >
+                </p>
+              </div>
+              <div class="card-footer d-flex justify-content-center">
+                <button class="btn btn-dark" type="button">Compra</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow rounded-5">
+              <img
+                src="../img/portamate negro.jpg"
+                class="card-img-top rounded-top-5 fotosAccion"
+                alt="PORTAMATE RUTERO NEGRO"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bolder text-center">
+                  PORTAMATE RUTERO NEGRO
+                </h5>
+                <p class="card-text text-center">CARACTERISTICAS</p>
+                <ul>
+                  <li>100% cuero</li>
+                  <li>Manija para enganchar en la palanca de cambios</li>
+                  <li>Calidad asegurada</li>
+                </ul>
+                <p class="card-text text-center"><b>$39.990,00</b></p>
+                <p class="card-text text-center">
+                  <small class="text-body-secondary"
+                    >10% OFF con efectivo o trasnferencia bancaria</small
+                  >
+                </p>
+              </div>
+              <div class="card-footer d-flex justify-content-center">
+                <button class="btn btn-dark" type="button">Compra</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow rounded-5">
+              <img
+                src="../img/portamate suela.jpg"
+                class="card-img-top rounded-top-5 fotosAccion"
+                alt="PORTAMATE RUTERO SUELA"
+              />
+              <div class="card-body">
+                <h5 class="card-title fw-bolder text-center">
+                  PORTAMATE RUTERO SUELA
+                </h5>
+                <p class="card-text text-center">CARACTERISTICAS</p>
+                <ul>
+                  <li>100% cuero</li>
+                  <li>Manija para enganchar en la palanca de cambios</li>
+                  <li>Calidad asegurada</li>
+                </ul>
+                <p class="card-text text-center"><b>$39.900,00</b></p>
+                <p class="card-text text-center">
+                  <small class="text-body-secondary"
+                    >10% OFF con efectivo o trasnferencia bancaria</small
+                  >
+                </p>
+              </div>
+              <div class="card-footer d-flex justify-content-center">
+                <button class="btn btn-dark" type="button">Compra</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Paginacion-->
+        <nav class="d-flex justify-content-center my-2">
+          <ul class="pagination">
+            <li class="page-item">
+              <a
+                class="page-link"
+                href="./detalleCtegoriaTyB.html"
+                aria-label="Previous"
+              >
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="./detallesCategoria.html">1</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="./detalleCtegoriaTyB.html">2</a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="./detallesAccesorios.html">3</a>
+            </li>
+            <li class="page-item">
+              <a
+                class="page-link"
+                href="./detallesCategoria.html"
+                aria-label="Next"
+              >
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </section>
     </main>
     <!--footer-->
     <footer class="bg-dark py-3 text-light">
@@ -815,6 +830,10 @@
         </div>
       </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
