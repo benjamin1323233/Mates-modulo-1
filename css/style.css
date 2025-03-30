@@ -81,7 +81,7 @@ select{
 }
 
 
-@media (min-width: 767px) and (max-width: 991px) {
+@media (min-width: 767px) and(max-width: 991px) {
   .carruselSobreNosotros {
     height: 300px;
   }
@@ -112,7 +112,7 @@ h2 {
 
 
 
-@media all and (max-width: 617px) {
+@media all and(max-width: 617px) {
     .formRegister{
         width: 90%;
     }
@@ -120,7 +120,7 @@ h2 {
 
 
 
-@media (min-width:767px) and (max-width:991px){
+@media (min-width:767px) and(max-width:991px){
     .carruselSobreNosotros{
         height: 300px;
 }}
@@ -147,7 +147,7 @@ h2 {
     transform: scale(1.1);
 }
 
-@media all and (max-width: 767px) {
+@media all and(max-width: 767px) {
     .imagenKitMatero {
         filter: grayscale(0%);
     }

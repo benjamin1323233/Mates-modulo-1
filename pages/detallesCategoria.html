@@ -21,12 +21,207 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="/img/matelogopng.webp" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+
     <title>Mateando</title>
   </head>
   <body>
-    <header></header>
+    <header>
+      <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a href="../index.html" class="navbar-logo">
+            <img
+              src="../img/matelogopng.webp"
+              alt="Logo de mi sitio"
+              class="img-fluid"
+            />
+            <a class="navbar-brand" href="../index.html">Mateando!</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item me-2">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="../index.html"
+                    >Inicio</a
+                  >
+                </li>
+                <li class="nav-item me-2">
+                  <a class="nav-link" href="../pages/sobreNosotros.html"
+                    >Nosotros</a
+                  >
+                </li>
+                <li class="nav-item me-2">
+                  <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item me-2">
+                  <a class="nav-link" href="../pages/detalleProducto.html"
+                    >Producto</a
+                  >
+                </li>
+                <li class="nav-item me-2">
+                  <a class="nav-link" href="./pages/detalleCarrito.html"
+                    >Carrito</a
+                  >
+                </li>
+                <li class="nav-item me-2">
+                  <a class="nav-link" href="./register.html">Registro</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  data-bs-theme="light"
+                  type="search"
+                  placeholder="Buscar..."
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-light text-ligh" type="submit">
+                  Buscar
+                </button>
+              </form>
+              <!-- inicio modal -->
+              <button
+                type="button"
+                class="btn btn-outline-light text-light mx-1"
+                data-bs-toggle="modal"
+                data-bs-target="#modalCrearCuenta"
+              >
+                Iniciar sesion
+              </button>
+              <section
+                class="modal fade"
+                id="modalCrearCuenta"
+                tabindex="-1"
+                aria-labelledby="modalRegisterLabel"
+                aria-hidden="true"
+                data-bs-theme="light"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h2 class="modal-title fs-5" id="modalRegisterLabel">
+                        iniciar sesion
+                      </h2>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        Completa los siguientes datos para entrar a tu cuenta:
+                      </p>
+                      <section class="container">
+                        <div class="row">
+                          <article class="col-12 col-md-12 col-lg-8 my-2">
+                            <form id="formModal">
+                              <div class="mb-3">
+                                <label for="NombreModal" class="form-label"
+                                  >Nombre y apellido</label
+                                >
+                                <input
+                                  type="text"
+                                  class="form-control"
+                                  id="NombreModal"
+                                  required
+                                  minlength="5"
+                                  maxlength="50"
+                                  placeholder="Charles Leclerc"
+                                />
+                              </div>
 
+                              <div class="mb-3">
+                                <label for="contraseñaModal" class="form-label"
+                                  >Contraseña</label
+                                >
+                                <input
+                                  type="password"
+                                  class="form-control"
+                                  id="contraseñaModal"
+                                  required
+                                  minlength="3"
+                                  maxlength="15"
+                                />
+                              </div>
+                              <div class="mb-3">
+                                <label
+                                  for="repetircontraseñaModal"
+                                  class="form-label"
+                                  >Repetir contraseña</label
+                                >
+                                <input
+                                  type="password"
+                                  class="form-control"
+                                  id="repetircontraseñaModal"
+                                  required
+                                  minlength="3"
+                                  maxlength="15"
+                                />
+                              </div>
+
+                              <button
+                                type="sumit"
+                                form="formModal"
+                                class="btn bg-success"
+                              >
+                                Iniciar sesion
+                              </button>
+                            </form>
+                          </article>
+                          <article
+                            class="col-12 col-md-12 col-lg-4 d-flex align-items"
+                          >
+                            <img
+                              src="./img/img-mate guarda asbtracta.webp"
+                              class="img-fluid cover"
+                              alt="imagen de mate y termo"
+                            />
+                          </article>
+
+                          <article class="col-12 mt-3">
+                            <p>
+                              Inicia sesion con:<a href="#"
+                                ><i
+                                  class="bi bi-google mx-2 fs-5 link-secondary"
+                                ></i> </a
+                              ><a href="#"
+                                ><i
+                                  class="bi bi-facebook fs-5 link-secondary"
+                                ></i
+                              ></a>
+                            </p>
+                          </article>
+                          <article class="col-12">
+                            <a href="#">¿No recuerdas tu contraseña?</a>
+                          </article>
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <!-- fin modal -->
+            </div>
+          </a>
+        </div>
+      </nav>
+    </header>
     <main>
       <h1 class="text-center fw-bolder">Mates</h1>
       <section class="container">
@@ -58,9 +253,9 @@
                     </p>
                   </div>
                   <div class="d-flex card-footer justify-content-end">
-                    <button class="btn btn-dark my-2" type="button">
-                      Comprar
-                    </button>
+                    <a href="./detalleCarrito.html" class="btn btn-dark my-2"
+                      >Comprar</a
+                    >
                   </div>
                 </div>
               </div>
@@ -84,9 +279,9 @@
                     </p>
                   </div>
                   <div class="card-footer">
-                    <button class="btn btn-dark my-2" type="button">
+                    <a href="./detalleCarrito.html" class="btn btn-dark my-2">
                       Comprar
-                    </button>
+                    </a>
                   </div>
                 </div>
                 <div class="col-md-4">
@@ -120,9 +315,9 @@
                     </p>
                   </div>
                   <div class="card-footer">
-                    <button class="btn btn-dark shadow-lg my-2" type="button">
+                    <a href="./detalleCarrito.html" class="btn btn-dark my-2">
                       Comprar
-                    </button>
+                    </a>
                   </div>
                 </div>
                 <div class="col-md-4">
@@ -557,18 +752,29 @@
                     compra.
                   </p>
                   <p class="card-text">
-                    Mantiene el agua caliente hasta 24 HS: Siempre listo para el mate, sin importar dónde estés.
+                    Mantiene el agua caliente hasta 24 HS: Siempre listo para el
+                    mate, sin importar dónde estés.
                   </p>
                   <p class="card-text">
-                    Acero inoxidable de ALTA CALIDAD: No se oxida, no se rompe, te dura toda la vida.
+                    Acero inoxidable de ALTA CALIDAD: No se oxida, no se rompe,
+                    te dura toda la vida.
                   </p>
                   <p class="card-text">
                     Pico cebador: No derrama nada, cae donde tiene que caer.
                   </p>
-                  <p class="card-text">Portabilidad total: Llevátelo a la oficina, al auto, a la montaña, a donde quieras.</p>
-                  <p class="card-text">Acero inoxidable premium: Resistente y fácil de limpiar.</p>
-                  <p class="card-text">Diseño térmico: Mantiene tu mate caliente por más tiempo</p>
-                  <p class="card-text"> Cómodo y portátil: Ideal para llevar a todos lados.</p>
+                  <p class="card-text">
+                    Portabilidad total: Llevátelo a la oficina, al auto, a la
+                    montaña, a donde quieras.
+                  </p>
+                  <p class="card-text">
+                    Acero inoxidable premium: Resistente y fácil de limpiar.
+                  </p>
+                  <p class="card-text">
+                    Diseño térmico: Mantiene tu mate caliente por más tiempo
+                  </p>
+                  <p class="card-text">
+                    Cómodo y portátil: Ideal para llevar a todos lados.
+                  </p>
                   <p class="card-text">
                     <b> $41.900,00</b>
                   </p>
@@ -663,27 +869,25 @@
             <li class="page-item">
               <a
                 class="page-link"
-                href="./pages/Categoria_Accesorios3.html"
+                href="./detallesAccesorios.html"
                 aria-label="Previous"
               >
                 <span aria-hidden="true">&laquo;</span>
               </a>
             </li>
             <li class="page-item">
-              <a class="page-link" href="./index.html">1</a>
+              <a class="page-link" href="./detallesCategoria.html">1</a>
             </li>
             <li class="page-item">
-              <a class="page-link" href="./pages/Categorias_Termos2.html">2</a>
+              <a class="page-link" href="./detalleCtegoriaTyB.html">2</a>
             </li>
             <li class="page-item">
-              <a class="page-link" href="./pages/Categoria_Accesorios3.html"
-                >3</a
-              >
+              <a class="page-link" href="./detallesAccesorios.html">3</a>
             </li>
             <li class="page-item">
               <a
                 class="page-link"
-                href="./pages/Categorias_Termos2.html"
+                href="./detalleCtegoriaTyB.html"
                 aria-label="Next"
               >
                 <span aria-hidden="true">&raquo;</span>
@@ -693,6 +897,103 @@
         </nav>
       </section>
     </main>
-    <footer></footer>
+    <footer class="bg-dark py-3 text-light">
+      <div class="container-fluid">
+        <div class="row justify-content-md-between gy-sm-3">
+          <article class="col-12 col-md-12 col-lg-2 text-center text-md-start">
+            <div
+              class="d-flex gap-3 justify-content-center justify-content-md-center align-items-md-center justify-content-lg-end"
+            >
+              <img
+                src="../img/matelogopng.webp"
+                class="logo-footer"
+                alt="Logo del footer"
+              />
+            </div>
+          </article>
+          <article class="col-12 col-md-3 col-lg-4 text-start gy-3 text-center">
+            <h5>Medios de pago:</h5>
+            <div>
+              <i class="bi bi-currency-bitcoin fs-6 text-warning">Bitcoin</i>
+              <i class="bi bi-currency-dollar fs-6 text-success">Efectivo</i>
+            </div>
+            <div>
+              <i class="bi bi-credit-card fs-6"> Tarjeta Credito</i>
+            </div>
+            <i class="bi bi-cash text-success fs-6"> Dolares</i>
+            <div>
+              <h6>Formas de envio:</h6>
+              <i class="bi bi-truck text-danger fs-6"> Envios a todo el pais</i>
+            </div>
+            <div>
+              <i class="bi bi-check-circle text-primary fs-6">
+                Retiro en sucursal</i
+              >
+            </div>
+          </article>
+          <article
+            class="col-12 col-md-3 col-lg-3 text-center text-md-start gy-3"
+          >
+            <h5>Navegacion</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  href="../index.html"
+                  class="link-secondary link-underline-opacity-25 link"
+                  >#Inicio</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./sobreNosotros.html"
+                  class="link-secondary link-underline-opacity-25 link"
+                  >#Nosotros</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./contacto.html"
+                  class="link-secondary link-underline-opacity-25 link"
+                  >#Contacto</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./detalleProducto.html"
+                  class="link-secondary link-underline-opacity-25 link"
+                  >#Productos</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./detalleCarrito.html"
+                  class="link-secondary link-underline-opacity-25 link"
+                  >#Carrito</a
+                >
+              </li>
+            </ul>
+          </article>
+          <article
+            class="col-12 col-md-3 col-lg-2 text-center text-md-start gy-3"
+          >
+            <h5>Seguinos en nuestras redes:</h5>
+            <div class="text-light my-2">
+              <i class="bi bi-instagram fs-2 text-danger"></i>
+              <i class="bi bi-facebook fs-2 text-primary"></i>
+              <i class="bi bi-twitter-x fs-3"></i>
+              <i class="bi bi-whatsapp fs-2 text-success"></i>
+            </div>
+          </article>
+          <article class="col-12 text-center text-md-end">
+            <div class="text-light my-2">
+              <p class="mx-lg-2">
+                &copy;Tienda matera-2025. Todos los derechos reservados. Defensa
+                de las y los consumidores
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
