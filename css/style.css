@@ -191,3 +191,13 @@ h2 {
     position: sticky; /* Fijo mientras se hace scroll en pantallas grandes */
     top: 100px; /* Separación desde arriba */
 }
+
+
+.fotosAccion:hover{
+  transition: transform 1ms ease, opacity 0.3s ease;
+    box-shadow: rgba(42,89,132) 1px 3px 19px 6px rgb(26, 25, 25) 2px 4px 20px 7px;
+    transform: scale(1.03);
+}
+.fotosEspeciales{
+  height: 58%;
+}
