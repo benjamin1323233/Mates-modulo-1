@@ -15,6 +15,15 @@ main{
 footer{
     max-width: 100%;
 }
+input{
+    width: 100%;
+    background-color: rgb(190, 252, 97);
+}
+
+select{
+    width: 100%;
+    background-color: rgb(190, 252, 97);
+}
 
 /* es el color verde del fondo de acerca de nosotros */
 .bgAcercaNos {
@@ -37,9 +46,7 @@ footer{
   background-color: rgb(255, 252, 235);
 }
 /* esta media query ajusta el tamaño del carrusel de acerca de nosotros para dispositivos pequeños */
-/* nav */
-@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Iansui&display=swap');
+
 
 .navbar{
     background-color: rgb(34, 134, 47);
@@ -57,18 +64,17 @@ footer{
 }
 
 
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+.formRegister{
+    border-radius: 10px;
+    width: 40%;
+    background-color: rgba(129, 255, 129, 0.637);
+    box-shadow: 0 5px 20px 0 rgb(177, 255, 76);
 }
 
-main {
-  flex-grow: 1;
+.buttonForm{
+    width: 100%;
+    margin-top: 15px;
 }
-
-/* esilos Footer index */
-
 
 .logo-footer {
   height: 130px;
@@ -94,6 +100,25 @@ h2 {
     max-width: 100%;
     overflow: hidden;
 }
+/* imagenes de perfiles sobre nosotros */
+.imgPerfil{
+    max-height: 300px;
+    max-width: 300px;
+}
+/* añade la propiedad cover a la imagenes del modal y pagina sobre nosotros */
+.cover{
+    object-fit: cover;
+}
+
+
+
+@media all and (max-width: 617px) {
+    .formRegister{
+        width: 90%;
+    }
+}
+
+
 
 @media (min-width:767px) and (max-width:991px){
     .carruselSobreNosotros{
@@ -153,6 +178,7 @@ h2 {
 .cardEffectContenedorDetalles {
     box-shadow: 0 0 5px rgba(127, 51, 85, 0.49), 0 0 10px rgba(127, 51, 85, 0.49), 0 0 15px rgba(127, 51, 85, 0.49);
 }
+
 
 /* Etilo pagina detalle Carrito */
 
