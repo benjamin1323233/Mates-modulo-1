@@ -81,7 +81,7 @@ select{
 }
 
 
-@media (min-width: 767px) and (max-width: 991px) {
+@media (min-width: 767px) and(max-width: 991px) {
   .carruselSobreNosotros {
     height: 300px;
   }
@@ -112,7 +112,7 @@ h2 {
 
 
 
-@media all and (max-width: 617px) {
+@media all and(max-width: 617px) {
     .formRegister{
         width: 90%;
     }
@@ -120,7 +120,7 @@ h2 {
 
 
 
-@media (min-width:767px) and (max-width:991px){
+@media (min-width:767px) and(max-width:991px){
     .carruselSobreNosotros{
         height: 300px;
 }}
@@ -147,7 +147,7 @@ h2 {
     transform: scale(1.1);
 }
 
-@media all and (max-width: 767px) {
+@media all and(max-width: 767px) {
     .imagenKitMatero {
         filter: grayscale(0%);
     }
@@ -192,11 +192,12 @@ h2 {
     top: 100px; /* Separación desde arriba */
 }
 
+
 .fotosAccion:hover{
-    transition: transform 1ms ease, opacity 0.3s ease;
-      box-shadow: rgba(42,89,132) 1px 3px 19px 6px rgb(26, 25, 25) 2px 4px 20px 7px;
-      transform: scale(1.03);
-  }
-  .fotosEspeciales{
-    height: 58%;
-  }
+  transition: transform 1ms ease, opacity 0.3s ease;
+    box-shadow: rgba(42,89,132) 1px 3px 19px 6px rgb(26, 25, 25) 2px 4px 20px 7px;
+    transform: scale(1.03);
+}
+.fotosEspeciales{
+  height: 58%;
+}
