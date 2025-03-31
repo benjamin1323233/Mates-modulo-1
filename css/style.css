@@ -201,3 +201,17 @@ h2 {
 .fotosEspeciales{
   height: 58%;
 }
+
+.publicidad-mate {
+  height: 400px;
+  box-shadow: 0 0 5px rgba(234, 255, 6, 0.423), 0 0 10px rgba(234, 255, 6, 0.423), 0 0 15px rgba(234, 255, 6, 0.423);
+}
+.publicidad-mate:hover {
+  box-shadow: 0 0 5px rgb(234, 255, 6), 0 0 10px rgb(234, 255, 6), 0 0 15px rgb(234, 255, 6);
+}
+
+@media (max-width: 768px) {
+  .contenedor-publicidad {
+    display: none;
+  }
+}
